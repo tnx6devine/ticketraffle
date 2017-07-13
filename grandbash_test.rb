@@ -17,7 +17,7 @@ class TestGrandBash < Minitest::Test
 	def test_assert_that_my_ticket_wins
 		my_ticket="1111"
 		winning_nums=["1111", "2222", "3333", "4444"]
-		assert_equal([my_ticket], winning_number(my_ticket, winning_nums))
+		assert_equal(["1111"], winning_number(my_ticket, winning_nums))
 	end
 
 end

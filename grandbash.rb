@@ -4,17 +4,13 @@ p my_ticket
 p winning_nums
 
 
-[]
+yacht = []
+if winning_nums.include?(my_ticket)
+yacht << my_ticket
 end
 
-def number_selector()
+yacht
 
-
-winning_number.each do |item|
-	p item
-end
 end
 
-winning_number
-number_selector
 
