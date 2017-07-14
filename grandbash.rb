@@ -42,7 +42,7 @@ def so_close(my_ticket, winning_nums)
 		
 		if winning_nums[0] == my_ticket[0]
 			counter = counter + 1
-end
+		end
 		if winning_nums[1] == my_ticket[1]
 			counter = counter + 1
 		end
@@ -52,8 +52,12 @@ end
 		if winning_nums[3] == my_ticket[3]
 			counter = counter + 1
 		end
-	
-	
-	counter == 3
+
+		if counter == 3
+			true
+		else
+			false
+		end
+
 
 end
