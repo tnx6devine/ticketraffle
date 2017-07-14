@@ -24,6 +24,13 @@ def special_requests()
 	end
 end
 
+# def cost
+# 	counter = 0
+# 	get_order.times do
+# 	counter = counter + 5
+# end
+# 	counter
+# end
 
 def pizza_maker()
 
@@ -31,6 +38,9 @@ get_order.times do
 	p "You ordered 1 #{crusts}, #{sauce}, #{toppings}#{special_requests} pizza"
 
 	end
+
+	p "Your total today is $#{cost}"
 end
+
 
 pizza_maker
