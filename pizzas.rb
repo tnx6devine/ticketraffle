@@ -1,8 +1,9 @@
 def get_order()
-p "How many pizzas?"
-order = gets.chomp
-order.to_i
+	p "How many pizzas?"
+	order = gets.chomp.to_i
+	order
 end
+
 
 def crusts()
 	["bread", "pizza crust", "taco shell", "cookie dough"].sample
