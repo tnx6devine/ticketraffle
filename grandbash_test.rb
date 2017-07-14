@@ -22,7 +22,7 @@ class TestGrandBash < Minitest::Test
 
 	def test_assert_that_my_ticket_is_so_close_false
 		my_ticket = "1234"
-		winning_nums = "1222"
+		winning_nums = "1222  "
 		assert_equal(false, so_close(my_ticket, winning_nums))
 	end
 
